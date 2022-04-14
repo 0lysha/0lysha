@@ -1,3 +1,5 @@
+
+/* ----------------------------------------------------------------------------RESET---------------------------------------------------------------------------------------------- */
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
@@ -364,4 +366,117 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------MAIN CSS--------------------------------------------------------- */
+
+
+
+
+html{
+    box-sizing: border-box;
+    background-image: url('../background.jpg');
+    
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+
+
+body{
+font-size: 16px;
+line-height: 1.2;  
+font-weight: normal;
+color: white;
+}
+
+.wrapper{
+    max-width: 1644px;
+    margin: 0 auto;
+    
+}
+
+.arrow_left{
+    position: relative;
+    left: 100px;
+}
+
+.arrow_right{
+    position: relative;
+    right: 100px;
+}
+
+.maincollage{
+    width: 1620px;
+}
+
+.bleft{
+   width: 100px;
+}
+.imgcentre{
+    text-align: center;
+}
+
+.header_logo{
+    margin-top: 50px;
+}
+.collage{
+    text-align: center;
+    width: 100%;
+    
+}
+
+.navigator{
+    max-width: 1644px;
+    margin: 0 auto;
+    font-size: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+.items {
+    margin-right: 115px; 
+   
+}
+
+.link{
+    color: white;
+}
+
+.link:hover, .link:focus, .link:active {
+    opacity: .75;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
