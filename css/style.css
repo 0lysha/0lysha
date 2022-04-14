@@ -420,6 +420,10 @@ color: white;
     width: 1620px;
 }
 
+.imgcollage{
+    border-radius: 100px;
+}
+
 .bleft{
    width: 100px;
 }
